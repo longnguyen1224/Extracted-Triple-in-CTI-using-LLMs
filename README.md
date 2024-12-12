@@ -18,6 +18,7 @@ LLM-based Triple Extraction: Use state-of-the-art LLMs to extract structured tri
 - Postprocessing and Validation: Filter out irrelevant or low-confidence triples, ensuring meaningful and accurate outputs.
 - Knowledge Graph Construction: Transform the extracted triples into a structured graph format for easy visualization and querying.
 - Evaluation: Assess the system’s accuracy and relevance using standard metrics to fine-tune and improve the pipeline.
+  
 **Technologies Used**:
 - Python: Core language for developing the pipeline and integrating tools.
 - LLMs (Llama 2, Llama 3, GTP 4o-mini, and GPT-3.5): Models for extracting triples and understanding complex cybersecurity contexts.
