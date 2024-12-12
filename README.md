@@ -6,7 +6,7 @@ Objective
 To create a scalable and efficient system for automatically extracting actionable insights from cybersecurity documents using state-of-the-art LLMs. The extracted triples can be used for constructing knowledge graphs, aiding security analysts in understanding complex relationships within the cybersecurity domain.
 
 Key Features
-Triple Extraction with LLMs: Utilizes powerful models like Llama 2 and GPT-3.5 Turbo to extract high-quality subject-predicate-object triples directly from raw CTI text.
+Triple Extraction with LLMs: Utilizes powerful models like Llama 2, Llama 3, GTP 4o-mini, and GPT-3.5 Turbo to extract high-quality subject-predicate-object triples directly from raw CTI text.
 Pretrained and Fine-Tuned Models: Employs fine-tuned LLMs optimized specifically for CTI data to ensure accurate and relevant extractions.
 Noise Filtering: Implements postprocessing steps to validate and filter extracted triples, ensuring the quality of the output.
 Knowledge Graph Integration: Facilitates the visualization and exploration of relationships between extracted cybersecurity entities.
@@ -19,8 +19,14 @@ Knowledge Graph Construction: Transform the extracted triples into a structured 
 Evaluation: Assess the system’s accuracy and relevance using standard metrics to fine-tune and improve the pipeline.
 Technologies Used
 Python: Core language for developing the pipeline and integrating tools.
-LLMs (Llama 2, GPT-3.5 Turbo): Models for extracting triples and understanding complex cybersecurity contexts.
+LLMs (Llama 2, Llama 3, GTP 4o-mini, and GPT-3.5): Models for extracting triples and understanding complex cybersecurity contexts.
 Jupyter Notebooks: For interactive development and experimentation.
+
+Future Enhancements
+Real-time Analysis: Expand the pipeline to process live CTI streams for real-time threat analysis.
+Model Expansion: Explore the integration of newer LLMs for improved accuracy and broader support.
+Integration with Security Tools: Connect the pipeline to existing cybersecurity platforms for seamless integration and analysis.
+
 Postprocessing Algorithms: For cleaning and validating extracted triples.
 Benefits
 Automated Insights: Automates the extraction of critical relationships from unstructured text, saving time and effort for security analysts.
