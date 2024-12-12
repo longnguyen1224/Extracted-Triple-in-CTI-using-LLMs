@@ -29,6 +29,7 @@ LLM-based Triple Extraction: Use state-of-the-art LLMs to extract structured tri
 - Model Expansion: Explore the integration of newer LLMs for improved accuracy and broader support.
 - Integration with Security Tools: Connect the pipeline to existing cybersecurity platforms for seamless integration and analysis.
 - Postprocessing Algorithms: For cleaning and validating extracted triples.
+  
 **Benefits**:
 - Automated Insights: Automates the extraction of critical relationships from unstructured text, saving time and effort for security analysts.
 - Advanced Intelligence Analysis: Enables analysts to uncover complex relationships between malware, vulnerabilities, and threat actors with minimal manual intervention.
